@@ -21,3 +21,7 @@ $ docker run -it jsenon/toolingcontainer bash
 kubectl run toolingcontainer -it  --image docker.io/jsenon/toolingcontainer:latest bash
 ```
 
+
+### Notes
+
+Automated build on https://hub.docker.com/r/jsenon/toolingcontainer/
