@@ -1,18 +1,18 @@
 # Tooling Container
 
 
-A simple container with tooling included
+A simple container with tooling included (nc, bash, curl, wget, postgresql-client)
 
 ## Install
 ```
 $ git clone
-$ docker build -t jsenon/toolingserver .
+$ docker build -t jsenon/toolingcontainer .
 ```
 
 ## Run Container
 
 ```
-$ docker run -it jsenon/toolingserver bash
+$ docker run -it jsenon/toolingcontainer bash
 ```
 
 ## Run on Kubernetes Cluster
