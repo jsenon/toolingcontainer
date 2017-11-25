@@ -18,6 +18,6 @@ $ docker run -it jsenon/toolingserver bash
 ## Run on Kubernetes Cluster
 
 ```
-kubectl run toolingserver docker.io/jsenon/toolingserver:server bash
+kubectl run toolingcontainer -it  --image docker.io/jsenon/toolingcontainer:latest bash
 ```
 
