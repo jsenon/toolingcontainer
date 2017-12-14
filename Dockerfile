@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-LABEL version="0.1"
+LABEL version="0.4"
 LABEL description="Container with basic tools"
 LABEL maintainer="julien.senon@gmail.com"
 
