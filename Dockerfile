@@ -6,6 +6,8 @@ LABEL maintainer="julien.senon@gmail.com"
 
 
 RUN apk -v --update add --no-cache \
+        bind-tools \
+        nmap \
         bash \
         curl \
         wget \
