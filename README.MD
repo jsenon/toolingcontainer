@@ -1,7 +1,7 @@
 # Tooling Container
 
 
-A simple container with tooling included (nc, bash, curl, wget, postgresql-client, awscli, s3cmd)
+A simple container with tooling included (nc, bash, curl, wget, postgresql-client, awscli, s3cmd, bindutil, nmap)
 
 ## Install
 ```
