@@ -18,6 +18,7 @@ RUN apk -v --update add --no-cache \
         less \
         groff \
         iputils \
+        busybox-extras \
         && \
     pip install --upgrade awscli s3cmd && \
     apk -v --purge del py-pip && \
