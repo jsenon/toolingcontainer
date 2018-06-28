@@ -19,6 +19,7 @@ RUN apk -v --update add --no-cache \
         groff \
         iputils \
         busybox-extras \
+        iptables \
         && \
     pip install --upgrade awscli s3cmd && \
     apk -v --purge del py-pip && \
