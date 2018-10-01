@@ -24,4 +24,4 @@ RUN apk -v --update add --no-cache \
         tcpdump \
         && \
     pip install --upgrade awscli s3cmd && \
-    apk -v --purge del py-pip && \
+    apk -v --purge del py-pip
