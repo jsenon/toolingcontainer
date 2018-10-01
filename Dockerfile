@@ -20,7 +20,7 @@ RUN apk -v --update add --no-cache \
         iputils \
         busybox-extras \
         iptables \
-        openssl1.1 \
+        openssl \
         tcpdump \
         && \
     pip install --upgrade awscli s3cmd && \
