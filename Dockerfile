@@ -25,5 +25,3 @@ RUN apk -v --update add --no-cache \
         && \
     pip install --upgrade awscli s3cmd && \
     apk -v --purge del py-pip && \
-    rm /var/cache/apk/*
-
