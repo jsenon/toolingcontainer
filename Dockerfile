@@ -20,6 +20,8 @@ RUN apk -v --update add --no-cache \
         iputils \
         busybox-extras \
         iptables \
+        openssl1.1 \
+        tcpdump \
         && \
     pip install --upgrade awscli s3cmd && \
     apk -v --purge del py-pip && \
